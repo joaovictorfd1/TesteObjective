@@ -12,6 +12,10 @@ function Check (divisivel, nome) {
                 console.log("buzz");
             } else if (i % diviseis[j] === 0 && diviseis[j] === divisivel) {
                 console.log(i);
+            } else if (i % 3 === 0 && i % 5 === 0) {
+                console.log("fizz buzz");
+            } else {
+                console.log(i);
             }
         }
     }
